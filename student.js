@@ -88,12 +88,5 @@ function addNewStudent(){
             students.push(_newstudent);
             displayStudents();
         })
-    })
-
-    // $.post('https://students-26afb-default-rtdb.firebaseio.com/students.json', _student, function(_student){
-    //     students.push(_student);
-    //     displayStudents();
-    // })
-   
-    
+    })   
 }
