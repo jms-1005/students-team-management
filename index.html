@@ -10,6 +10,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="student.js"></script>
 <style>
+  *{
+    /* border:1px solid gray; */
+  }
+
+  .image img{
+    max-width:120px;
+  }
 
     .student{
         padding: 30px;
@@ -33,7 +40,7 @@
         </div>
         <div class="mb-3">
             <label for="newImage" class="form-label">Student Image</label>
-            <input type="text" class="form-control" id="newImage" value="https://picsum.photos/160/150">
+            <input type="text" class="form-control" id="newImage" value="https://picsum.photos/120/150">
           </div>
        
         <button type="submit" class="btn btn-primary" onclick="addNewStudent()">Add Student</button>
